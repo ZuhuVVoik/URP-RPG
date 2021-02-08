@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68e9a150e8bc27547a632a55f934eaa0, type: 3}
+  m_Name: BlinkShtanishki
+  m_EditorClassIdentifier: 
+  name: Blink shtani
+  icon: {fileID: 21300000, guid: 7d6d5225d5a2b40e3959b66d13b6e29c, type: 3}
+  isDefaultItem: 0
+  description: Blink
+  stackable: 0
+  dropPrefub: {fileID: 141190549743581815, guid: 3aaecffce5c9bae4abacbea08dbb2f31,
+    type: 3}
+  MaxCountPerStack: 100
+  equipmentSlot: 2
+  armorModifier: 0
+  damageModifier: 0
+  RequireTwoSlots: 0
+  weaponType: 0
+  SlotWeapon1: {fileID: 0}
+  useSlotWeapon1Spell: 0
+  SlotWeapon2: {fileID: 0}
+  useSlotWeapon2Spell: 0
+  SlotChest: {fileID: 0}
+  useSlotChestSpell: 0
+  SlotLegs: {fileID: 11400000, guid: 485007e8209021e4ab3f00fc4412b820, type: 2}
+  useSlotLegsSpell: 1

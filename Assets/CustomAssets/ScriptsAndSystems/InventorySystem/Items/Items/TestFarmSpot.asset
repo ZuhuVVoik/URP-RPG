@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8229b280c1533db4080d4f596c6afce5, type: 3}
+  m_Name: TestFarmSpot
+  m_EditorClassIdentifier: 
+  name: TestFarmSpot
+  icon: {fileID: 21300054, guid: 8fb98a6035269e64a998f9b56828fc4f, type: 3}
+  isDefaultItem: 0
+  description: Test Farming Spot
+  stackable: 0
+  dropPrefub: {fileID: 699815694002253644, guid: fdb4daf9ec19bfe4ca55a96c89828590,
+    type: 3}
+  MaxCountPerStack: 100
+  BuildingPrefab: {fileID: 1069449961599408004, guid: fe7230eac3e4e4b48a21eeb4a72d0ad5,
+    type: 3}
+  BuildingPreview: {fileID: 5451487164432679278, guid: ba4f8e0d38547804cba9ec5864b4ab25,
+    type: 3}
+  gold: 0
