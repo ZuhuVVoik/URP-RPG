@@ -16,7 +16,7 @@ public class Lootable : InteractableObject
     private bool generateAgain = false;
 
 
-    protected PlayerMotor player;
+    protected AgentMovement player;
     private void Start()
     {
         lootTable = GetComponent<LootTable>();

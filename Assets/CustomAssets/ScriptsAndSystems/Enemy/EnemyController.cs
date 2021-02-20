@@ -10,14 +10,16 @@ public class EnemyController : MonoBehaviour
     public float rotateSpeed = 3f;
 
     private bool isDead = false;
+    private bool playerDetected;
 
     public Transform target;
     NavMeshAgent agent;
-
+    EnemyCombat combat;
     private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         target = PlayerManager.instance.Player.transform;
+        combat = GetComponent<EnemyCombat>();
     }
 
     private void Update()
@@ -34,16 +36,30 @@ public class EnemyController : MonoBehaviour
 
         if (IsInLookRadius(distance))
         {
+            if (!playerDetected)
+            {
+                combat.OnPlayerDetected();
+            }
+
+            playerDetected = true;
+
             agent.SetDestination(target.position);
+
+            bool skillAttackStatus = combat.CastSpell();
 
             if (IsInAttackRadius(distance))
             {
-
+                combat.AttackStandart();
             }
             else
             {
 
             }
+        }
+        else
+        {
+            playerDetected = false;
+            combat.OnPlayerLost();
         }
     }
 

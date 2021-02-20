@@ -18,7 +18,7 @@ public class InventoryManager : MonoBehaviour
     }
     #endregion
 
-    public PlayerMotor player;
+    public AgentMovement player;
     public PlayerInventory playerInventory;
     public Inventory localInventory;
 

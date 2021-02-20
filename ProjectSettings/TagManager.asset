@@ -17,6 +17,8 @@ TagManager:
   - Buildable
   - BuildablePreview
   - Damagable
+  - Terrain
+  - Player
   - 
   - 
   - 
@@ -35,9 +37,7 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
+  - HLOD
   m_SortingLayers:
   - name: Default
     uniqueID: 0

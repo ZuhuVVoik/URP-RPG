@@ -33,6 +33,9 @@ MonoBehaviour:
   needToCast: 0
   castTime: 2
   timeToMaxStrength: 1
-  skillPreview: {fileID: 100000, guid: 25712b9d3dd0eb4439390fb8fea8043e, type: 3}
+  skillPreview: {fileID: 6783315369047750710, guid: 03889a071935b3843b65c9c9591a6bde,
+    type: 3}
   skillVisual: {fileID: 4181994820965192328, guid: 9345f5bd7ab1d8a4785d4fdcc53aa673,
+    type: 3}
+  skillVFX: {fileID: 6783315369047750710, guid: 03889a071935b3843b65c9c9591a6bde,
     type: 3}

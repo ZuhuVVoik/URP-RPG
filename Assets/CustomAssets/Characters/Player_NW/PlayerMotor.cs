@@ -10,6 +10,9 @@ public class PlayerMotor : MonoBehaviour
     public Animator animator;
 
 
+    private float desiredRotationAngle = 0;
+    float rotationSpeed = 20;
+    Vector3 movementVector = Vector3.zero;
     public float walkSpeed = 6f;
     public float runSpeed = 12f;
 
@@ -34,6 +37,8 @@ public class PlayerMotor : MonoBehaviour
     {
         Move();
     }
+
+    
 
     private void Move()
     {

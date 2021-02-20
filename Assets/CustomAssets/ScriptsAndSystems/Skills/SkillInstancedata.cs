@@ -5,6 +5,6 @@ using UnityEngine;
 public class SkillInstancedata : MonoBehaviour
 {
     /* Класс содержащий информацию под инстанс спелла */
-    public SkillCastSystem caster;
+    public GameObject caster;
     public Skill skill;
 }

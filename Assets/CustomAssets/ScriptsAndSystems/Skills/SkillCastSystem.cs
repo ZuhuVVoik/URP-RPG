@@ -176,7 +176,7 @@ public class SkillCastSystem : MonoBehaviour
         GameObject skillObj = Instantiate(skill.skillVisual, position.position, position.rotation);
         SkillInstancedata data = skillObj.GetComponent<SkillInstancedata>();
 
-        data.caster = this;
+        data.caster = this.gameObject;
         data.skill = skill;
     }
 }

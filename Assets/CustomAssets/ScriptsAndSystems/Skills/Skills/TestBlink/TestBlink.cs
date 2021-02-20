@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TestBlink : SkillBase
 {
-    public SkillCastSystem caster;
+    public GameObject caster;
 
     public override void StartAction()
     {

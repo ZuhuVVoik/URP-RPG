@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum SkillTypes { AttackAoe, Buff}
 [CreateAssetMenu(fileName = "New Skill", menuName = "Skills/Skill(Scriptable Object)")]
 public class Skill : ScriptableObject
 {
     new public string name;
     public Sprite icon;
+
+    public SkillTypes SkillType;
 
     public int manaCost = 10;
 

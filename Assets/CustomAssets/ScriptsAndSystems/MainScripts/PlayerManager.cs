@@ -12,4 +12,9 @@ public class PlayerManager : MonoBehaviour
     }
 
     public GameObject Player;
+
+    public void KillPlayer()
+    {
+        Debug.Log("Player killed");
+    }
 }
